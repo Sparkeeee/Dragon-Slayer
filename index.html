@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <title>RPG - Dragon Slayer</title>
+  </head>
+  <body>
+    <h1>Dragon Slayer</h1>
+    <div id="game">
+      <div id="stats">
+        <span class="stat">XP: <strong><span class="stat" id="xpText">0</span></strong></span>
+        <span class="stat">Health: <strong><span class="stat" id="healthText">100</span></strong></span>
+        <span class="stat">Gold: <strong><span class="stat" id="goldText">50</span></strong></span>
+      </div>
+      <div id="controls">
+        <button class="buttons" id="button1">Go to store</button>
+        <button class="buttons" id="button2">Go to cave</button>
+        <button class="buttons" id="button3">Fight dragon</button>
+      </div>
+      <div id="monsterStats">
+        <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+        <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+      </div>
+      <div id="text">
+        <h2>Welcome to Dragon Slayer...</h2> 
+        <p>The poor people of Devverton find themselves trapped in their town. A black dragon guards the narrow pass that is the only path out into the wider world.</p>
+        <p>With the people trapped in the town, the dragon now has a steady supply of food, the townsfolk! The best and bravest warriors have fought and died trying to defeat the creature.</p>
+        <p>There is a cave system, where other dangerous beings lurk, aside from this though, there is nowhere to go, for now..</p>
+        <p>Without the ability to trade, or get to the fields to farm, the people grow poor, starve and fall sick as they wait to be eaten..</p>You are the towns final hope! You must defeat the fearsome dragon and save the town. You are in the town square. Where do you want to go? Use the buttons above.
+      </div>
+      <div id="images">
+        <audio id="audio" autoplay  src="assets\sounds\Cantiga 1.mp3"></audio>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

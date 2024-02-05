@@ -1,0 +1,83 @@
+body {
+    background-color: #0a0a23;
+    font-size: 24px;
+    font-family: 'MedievalSharp', cursive;
+
+    
+  }
+  
+  #text {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 15px;
+  }
+
+  h1{
+    color: gold;
+    text-align: center;
+    text-decoration:underline;
+  }
+  
+  #game {
+    max-width: 800px;
+    max-height: 1500px;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin: 30px auto 0px;
+    padding: 10px;
+  }
+  
+  #controls,
+  #stats {
+    
+    padding: 5px;
+    display: block;
+    color: #0a0a23;
+    
+  }
+
+  .stat{
+    display: flex;
+    padding-top:auto;
+    justify-content: space-evenly ;
+    padding-right: 10px;
+  }
+  
+  #monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+  }
+  
+
+
+  .controls.buttons {
+    display: flex;
+    width: 750px;
+    
+    
+  }
+  
+  button {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+
+    
+    
+  }
+  
+
+  #images {
+    width: 800px;
+    height: 650px;
+    margin-top: 15px;
+    border: 1px solid gold;
+    background-color: gold;
+    background-image: url(assets/images/signpost.jpg);
+  }
