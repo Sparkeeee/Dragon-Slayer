@@ -1,4 +1,4 @@
--radiusbody {
+body {
     background-color: #136e13;
     font-size: 24px;
     font-family: 'MedievalSharp', cursive;
@@ -26,6 +26,7 @@
     color: #ffffff;
     margin: 30px auto 0px;
     padding: 10px;
+    border-radius: 1rem;
   }
   
   #controls,
