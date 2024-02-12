@@ -1,4 +1,9 @@
 body {
+    background: url() no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     background-color: #136e13;
     font-size: 24px;
     font-family: 'MedievalSharp', cursive;
@@ -17,6 +22,8 @@ body {
     color: gold;
     text-align: center;
     text-decoration:underline;
+    width: 15rem;
+    background-color: #136e13;
   }
   
   #game {
@@ -68,6 +75,7 @@ body {
     background-color: #feac32;
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
+    font-weight: bold;
 
     
     
